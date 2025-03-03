@@ -6,7 +6,7 @@ interface Props {
 
 function ToastPopUp({ message }: Props) {
   return (
-    <div className="m-1 flex w-[300px] animate-pulse items-center justify-evenly rounded-md border  border-solid p-1.5 text-lg text-white">
+    <div className="m-1 flex w-[350px] animate-pulse items-center justify-evenly rounded-md border  border-solid p-1.5 text-lg text-white">
       <AlertIcon />
       {message}
     </div>
